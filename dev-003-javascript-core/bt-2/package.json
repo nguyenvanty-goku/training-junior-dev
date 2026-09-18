@@ -1,0 +1,10 @@
+{
+  "name": "bt-2",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Bài tập về nhà: Fetch tuần tự vs song song, Event Loop & ES Modules",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  }
+}

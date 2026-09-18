@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bảng Giá Dịch Vụ - Pricing Section BEM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Pricing Section (Block: pricing-section) -->
+  <section class="pricing-section">
+    
+    <!-- Section Header (Element: pricing-section__header) -->
+    <header class="pricing-section__header">
+      <h2 class="pricing-section__title">Bảng Giá Dịch Vụ Thiết Kế & Lập Trình Web</h2>
+      <p class="pricing-section__subtitle">Lựa chọn gói dịch vụ phù hợp với nhu cầu và quy mô dự án của bạn</p>
+    </header>
+
+    <!-- Pricing Container (Element: pricing-section__container) -->
+    <div class="pricing-section__container">
+      
+      <!-- Card 1: Gói Cơ Bản (Block: pricing-card) -->
+      <article class="pricing-card">
+        <header class="pricing-card__header">
+          <h3 class="pricing-card__title">Gói Cơ Bản</h3>
+          <p class="pricing-card__description">Dành cho cá nhân và website giới thiệu đơn giản</p>
+          <div class="pricing-card__price">
+            <span class="pricing-card__amount">1.500.000đ</span>
+            <span class="pricing-card__period">/trang</span>
+          </div>
+        </header>
+
+        <ul class="pricing-card__features">
+          <li class="pricing-card__feature-item">Giao diện Responsive chuẩn Mobile</li>
+          <li class="pricing-card__feature-item">Mã nguồn HTML5 ngữ nghĩa</li>
+          <li class="pricing-card__feature-item">Tối ưu tốc độ tải trang cơ bản</li>
+          <li class="pricing-card__feature-item pricing-card__feature-item--disabled">Tích hợp cơ sở dữ liệu</li>
+        </ul>
+
+        <footer class="pricing-card__footer">
+          <button class="pricing-card__button">Đăng Ký Ngay</button>
+        </footer>
+      </article>
+
+      <!-- Card 2: Gói Chuyên Nghiệp (Modifier: pricing-card--featured) -->
+      <article class="pricing-card pricing-card--featured">
+        <div class="pricing-card__badge">Phổ Biến Nhất</div>
+
+        <header class="pricing-card__header">
+          <h3 class="pricing-card__title">Gói Chuyên Nghiệp</h3>
+          <p class="pricing-card__description">Dành cho doanh nghiệp vừa và các ứng dụng Web React</p>
+          <div class="pricing-card__price">
+            <span class="pricing-card__amount">3.500.000đ</span>
+            <span class="pricing-card__period">/dự án</span>
+          </div>
+        </header>
+
+        <ul class="pricing-card__features">
+          <li class="pricing-card__feature-item">Giao diện SPA mượt mà với React</li>
+          <li class="pricing-card__feature-item">Tích hợp RESTful API & State Management</li>
+          <li class="pricing-card__feature-item">Đặt tên class chuẩn BEM dễ bảo trì</li>
+          <li class="pricing-card__feature-item">Hỗ trợ tối ưu SEO & Accessibility</li>
+        </ul>
+
+        <footer class="pricing-card__footer">
+          <button class="pricing-card__button pricing-card__button--primary">Đăng Ký Ngay</button>
+        </footer>
+      </article>
+
+      <!-- Card 3: Gói Doanh Nghiệp (Block: pricing-card) -->
+      <article class="pricing-card">
+        <header class="pricing-card__header">
+          <h3 class="pricing-card__title">Gói Doanh Nghiệp</h3>
+          <p class="pricing-card__description">Giải pháp toàn diện cho hệ thống lớn và dự án phức tạp</p>
+          <div class="pricing-card__price">
+            <span class="pricing-card__amount">7.000.000đ</span>
+            <span class="pricing-card__period">/dự án</span>
+          </div>
+        </header>
+
+        <ul class="pricing-card__features">
+          <li class="pricing-card__feature-item">Tất cả tính năng gói Chuyên Nghiệp</li>
+          <li class="pricing-card__feature-item">Tối ưu hiệu năng nâng cao (Lighthouse > 90)</li>
+          <li class="pricing-card__feature-item">Cấu hình CI/CD Deployment tự động</li>
+          <li class="pricing-card__feature-item">Bảo trì và hỗ trợ kỹ thuật 24/7</li>
+        </ul>
+
+        <footer class="pricing-card__footer">
+          <button class="pricing-card__button">Liên Hệ Tư Vấn</button>
+        </footer>
+      </article>
+
+    </div>
+
+  </section>
+
+</body>
+</html>
